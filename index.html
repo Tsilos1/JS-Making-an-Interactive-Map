@@ -14,14 +14,14 @@
    crossorigin=""></script>
     <style>
     #map { 
-        height: 400px;
+        height: 600px;
         background-color: #ccc;
     }
     #map::before{
         content: 'LOADING';
         font-size: 3em;
         text-align: center;
-        width: 100%;
+        width: 100%
         position: absolute;
         margin-top: 3em;
     }
@@ -40,6 +40,11 @@
         </select>
         <button id="submit">Submit</button>
     </form>
+    
+    <button id = "find-me">Show my location</button><br/>
+    <p id = "status"></p>
+    <a id = "map-link" target="_blank"></a>
+
     <div id="map"></div>
 </body>
 </html>
